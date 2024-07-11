@@ -6,8 +6,8 @@ Esta é uma API Flask para gerenciar boardgames e partidas, incluindo funcionali
 
 1. Clone o repositório:
     ```bash
-    git clone <URL_DO_REPOSITORIO>
-    cd <NOME_DO_REPOSITORIO>
+    git clone https://github.com/JoaoGFrazao/Arquitetura-Software-Backend
+    cd Arquitetura-Software-Backend
     ```
 
 2. Crie e ative um ambiente virtual (opcional, mas recomendado):
