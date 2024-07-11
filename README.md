@@ -2,15 +2,7 @@
 
 Esta é uma API Flask para gerenciar boardgames e partidas, incluindo funcionalidades para adicionar, listar, pesquisar e excluir boardgames e partidas. A API também permite adicionar jogos diretamente da BoardGameGeek API.
 
-## Requisitos
-
-- Python 3.9
-- Flask
-- SQLAlchemy
-- Flasgger
-- Requests
-
-## Instalação
+## Para Usar sem Docker
 
 1. Clone o repositório:
     ```bash
@@ -25,21 +17,20 @@ Esta é uma API Flask para gerenciar boardgames e partidas, incluindo funcionali
     ```
 
 3. Instale as dependências:
+
     ```bash
     pip install -r requirements.txt
     ```
 
-## Uso
+4. Inicie a aplicação Flask:
 
-### Executando a Aplicação
-
-1. Inicie a aplicação Flask:
     ```bash
     python app.py
     ```
-   A aplicação estará disponível em `http://localhost:5000`.
 
-### Docker
+​    A aplicação estará disponível em `http://localhost:5000`.
+
+## Para Usar com Docker
 
 1. Construa a imagem Docker:
     ```bash
